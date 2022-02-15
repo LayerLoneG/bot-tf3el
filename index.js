@@ -90,7 +90,7 @@ client.on('message', async (message)=> {
         const user = message.author
         let points = db.get(`point_${message.guild.id}_${message.author}`)
         if (points >= 5){
-             message.guild.member(user).roles.add(`932300587368853524`)   
+             message.guild.member(user).roles.add(`${rtb1}`)   
              message.channel.send(`**__تم ترقيتك بنجاح ${message.author.tag}__**`)
             }
         else  {
@@ -110,7 +110,7 @@ client.on('message', async (message)=> {
         const user = message.author
         let points = db.get(`point_${message.guild.id}_${message.author}`)
         if(points >= 15) {
-            message.guild.member(user).roles.add(`932300587368853524`)   
+            message.guild.member(user).roles.add(`${rtb2}`)   
             message.channel.send(`**__تم ترقيتك بنجاح ${message.author.tag}__**`)
            }
        else  {
@@ -131,7 +131,7 @@ client.on('message', async (message)=> {
         const user = message.author
         let points = db.get(`point_${message.guild.id}_${message.author}`)
         if(points >= 25) {
-            message.guild.member(user).roles.add(`932300587368853524`)   
+            message.guild.member(user).roles.add(`${rtb3}`)   
             message.channel.send(`**__تم ترقيتك بنجاح ${message.author.tag}__**`)
            }
        else  {
@@ -152,7 +152,7 @@ client.on('message', async (message)=> {
         const user = message.author
         let points = db.get(`point_${message.guild.id}_${message.author}`)
         if(points >= 35) {
-            message.guild.member(user).roles.add(`932300587368853524`)   
+            message.guild.member(user).roles.add(`${rtb4}`)   
             message.channel.send(`**__تم ترقيتك بنجاح ${message.author.tag}__**`)
            }
        else  {
@@ -172,7 +172,7 @@ client.on('message', async (message)=> {
         const user = message.author
         let points = db.get(`point_${message.guild.id}_${message.author}`)
         if(points >= 40) {
-             message.guild.member(user).roles.add(`932300587368853524`)   
+             message.guild.member(user).roles.add(`${rtb5}`)   
              message.channel.send(`**__تم ترقيتك بنجاح ${message.author.tag}__**`)
             }
         else  {
@@ -192,7 +192,7 @@ client.on('message', async (message)=> {
         const user = message.author
         let points = db.get(`point_${message.guild.id}_${message.author}`)
         if(points >= 45) {
-            message.guild.member(user).roles.add(`932300587368853524`)   
+            message.guild.member(user).roles.add(`${rtb6}`)   
             message.channel.send(`**__تم ترقيتك بنجاح ${message.author.tag}__** `)
            }
        else  {
@@ -212,7 +212,7 @@ client.on('message', async (message)=> {
         const user = message.author
         let points = db.get(`point_${message.guild.id}_${message.author}`)
         if(points >= 50) {
-            message.guild.member(user).roles.add(`932300587368853524`)   
+            message.guild.member(user).roles.add(`${rtb7}`)   
             message.channel.send(`**__تم ترقيتك بنجاح ${message.author.tag}__**`)
            }
        else  {
