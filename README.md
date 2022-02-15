@@ -13,14 +13,14 @@ BY Froxy My Guilds :
 
 
 كود الترقية
-```
+```js
 client.on('message', async (message)=> {
     if(message.content.startsWith(`ترقية-1`)){
         if(!message.member.roles.cache.has(`${managerrole}`)) return;
         const user = message.author
         let points = db.get(`point_${message.guild.id}_${message.author}`)
         if (points >= 5){
-             message.guild.member(user).roles.add(`932300587368853524`)   
+             message.guild.member(user).roles.add(`${rtb1}`)   
              message.channel.send(`**__تم ترقيتك بنجاح ${message.author.tag}__**`)
             }
         else  {
@@ -34,3 +34,5 @@ client.on('message', async (message)=> {
     }
 })
 ```
+
+By Froxy 
